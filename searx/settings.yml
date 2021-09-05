@@ -549,40 +549,40 @@ engines:
       require_api_key: false
       results: JSON
 
-  - name : google
-    engine : google
-    shortcut : go
-    use_mobile_ui: false
-    # additional_tests:
-    #   android: *test_android
+#  - name : google
+#    engine : google
+#    shortcut : go
+#    use_mobile_ui: false
+#    # additional_tests:
+#    #   android: *test_android
 
-  - name : google images
-    engine : google_images
-    shortcut : goi
-    # additional_tests:
-    #   android: *test_android
-    #   dali:
-    #     matrix:
-    #       query: ['Dali Christ']
-    #       lang: ['en', 'de', 'fr', 'zh-CN']
-    #     result_container:
-    #       - ['one_title_contains', 'Salvador']
+#  - name : google images
+#    engine : google_images
+#    shortcut : goi
+#    # additional_tests:
+#    #   android: *test_android
+#    #   dali:
+#    #     matrix:
+#    #       query: ['Dali Christ']
+#    #       lang: ['en', 'de', 'fr', 'zh-CN']
+#    #     result_container:
+#    #       - ['one_title_contains', 'Salvador']
 
-  - name : google news
-    engine : google_news
-    shortcut : gon
-    # additional_tests:
-    #   android: *test_android
+#  - name : google news
+#    engine : google_news
+#    shortcut : gon
+#    # additional_tests:
+#    #   android: *test_android
 
-  - name : google videos
-    engine : google_videos
-    shortcut : gov
-    # additional_tests:
-    #   android: *test_android
+#  - name : google videos
+#    engine : google_videos
+#    shortcut : gov
+#    # additional_tests:
+#    #   android: *test_android
 
-  - name : google scholar
-    engine : google_scholar
-    shortcut : gos
+#  - name : google scholar
+#    engine : google_scholar
+#    shortcut : gos
 
   - name : google play apps
     engine : xpath
