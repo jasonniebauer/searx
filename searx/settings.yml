@@ -343,7 +343,7 @@ engines:
     engine : duckduckgo_definitions
     shortcut : ddd
     weight : 2
-    disabled : True
+    disabled : False
     tests: *tests_infobox
 
 # cloudflare protected
@@ -401,7 +401,7 @@ engines:
   - name : duckduckgo
     engine : duckduckgo
     shortcut : ddg
-    disabled : True
+    disabled : False
 
   - name : duckduckgo images
     engine : duckduckgo_images
